@@ -6,9 +6,9 @@ if(confirmation == true){
     var searchResult = ramadanFamily.indexOf(userName);
     console.log(searchResult);
     if ( searchResult != -1){
-        alert("You are one of Ramadan family" );
+        alert("You are one of Ramadan family, Now look at the bottom of the page !!" );
     } else {
-        alert ("You are not one of Ramadan family");
+        alert ("You are not one of Ramadan family, Now look at the bottom of the page !!");
     }
 } else {
     alert("Please relode the page then type your name again!");

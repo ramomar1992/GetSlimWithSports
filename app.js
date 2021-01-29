@@ -6,7 +6,7 @@ console.log("the cheack is : " + gameGuesses.indexOf(userInput));
 while (gameGuesses.indexOf(Number(userInput) ) == -1 ) {
     console.log("user guess: " + userInput);
     console.log("the check is : " + gameGuesses.indexOf(userInput));
-    userInput = prompt("You did not get it right >!>!>!> You can try again now . . .");
+    userInput = prompt("You did not get it right, haha. Enter a number between 1 - 100. You can try again now . . .");
 }
 alert("Now you got it right. Lets move on , haha!")
 var userName = "";

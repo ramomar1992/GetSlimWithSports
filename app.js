@@ -26,6 +26,7 @@ function userNameCheck() {
         if ( searchResult != -1){
             alert("You are one of Ramadan family, Now look at the bottom of the page !!" );
         } else {
+            ramadanFamily.push(userName);
             alert ("You are not one of Ramadan family, Now look at the bottom of the page !!");
         }
     } else {
@@ -43,11 +44,4 @@ function imagePrinter() {
      }
     
 }
-
-{
-    guessing_Game();
-    userNameCheck();
-    imagePrinter();
-}
-window.scrollTo(0,document.body.scrollHeight);
 
